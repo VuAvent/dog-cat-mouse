@@ -1,10 +1,8 @@
 function Mouse (name) {
 	this.name = name;
-	this.dead = false;
-	this.age = [];
+	this.isDead = false;
 }
 Mouse.prototype.die = function(){
-	this.dead = true;
+	
 };
-
 module.export = Mouse;
